@@ -16,7 +16,7 @@ Demo: [http://davidguttman.github.io/react-pivot/](http://davidguttman.github.io
 <strong> Default (Browserify/webpack): </strong>
 
 ```
-npm install --save react-pivot-webpack
+npm install --save @ledsoft/react-pivot
 ```
 
 ```js
@@ -38,7 +38,7 @@ ReactDOM.render(
 Download [react-pivot-standalone-3.0.0.min.js](https://raw.githubusercontent.com/davidguttman/react-pivot/master/dist/react-pivot-standalone-3.0.0.min.js)
 
 ```html
-<script src='react-pivot-standalone-3.0.0.min.js'></script>
+<script src='react-pivot-webpack.js'></script>
 <script>
   ReactPivot(document.body, {
     rows: rows,

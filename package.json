@@ -1,5 +1,5 @@
 {
-  "name": "react-pivot-webpack",
+  "name": "@ledsoft/react-pivot",
   "description": "Webpack-compatible version of the React-Pivot library (https://github.com/davidguttman/react-pivot).",
   "version": "5.0.0",
   "author": "Martin Ledvinka",

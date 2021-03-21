@@ -5,7 +5,7 @@ module.exports = {
     entry: path.resolve(__dirname, 'src') + '/index.jsx',
     output: {
         filename: 'react-pivot-webpack.js',
-        path: path.resolve(__dirname, "../src/dist"),
+        path: path.resolve(__dirname, "./dist"),
         libraryTarget: 'commonjs'
     },
     resolve: {
