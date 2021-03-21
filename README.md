@@ -16,7 +16,7 @@ Demo: [http://davidguttman.github.io/react-pivot/](http://davidguttman.github.io
 <strong> Default (Browserify/webpack): </strong>
 
 ```
-npm install --save @ledsoft/react-pivot
+npm install --save react-pivot-webpack
 ```
 
 ```js
