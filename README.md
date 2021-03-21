@@ -1,3 +1,8 @@
+# ReactPivot Webpack #
+
+This is a Webpack-compatible version of the [ReactPivot](https://github.com/davidguttman/react-pivot) library.
+
+
 # ReactPivot #
 
 ReactPivot is a data-grid component with pivot-table-like functionality for data display, filtering, and exploration. Can be used without React.
@@ -11,20 +16,20 @@ Demo: [http://davidguttman.github.io/react-pivot/](http://davidguttman.github.io
 <strong> Default (Browserify/webpack): </strong>
 
 ```
-npm i -S react-pivot
+npm install --save react-pivot-webpack
 ```
 
 ```js
-var React = require('react')
-var ReactPivot = require('react-pivot')
+import ReactDOM from "react-dom";
+import ReactPivot from "react-pivot-webpack";
 
-React.render(
+ReactDOM.render(
   <ReactPivot rows={rows}
               dimensions={dimensions}
               reduce={reduce}
               calculations={calculations}
               nPaginateRows={25} />,
-  document.body
+  document.findElementById("root")
 )
 ```
 
@@ -62,15 +67,15 @@ ReactPivot(document.body, {
 ## Example ##
 
 ```js
-var React = require('react')
-var ReactPivot = require('react-pivot')
+import ReactDOM from "react-dom";
+import ReactPivot from "react-pivot-webpack";
 
-React.render(
+ReactDOM.render(
   <ReactPivot rows={rows}
               dimensions={dimensions}
               reduce={reduce}
               calculations={calculations} />,
-  document.body
+    document.findElementById("root")
 )
 ```
 
@@ -132,7 +137,7 @@ React.render(
 )
 ```
 
-See it all together in [example/basic.jsx](https://github.com/davidguttman/react-pivot/blob/master/example/basic.jsx)
+See it all together in [example/basic.jsx](https://github.com/ledsoft/react-pivot-webpack/blob/master/example/basic.jsx)
 
 ### Optional Arguments ###
 parameter | type | description | default
