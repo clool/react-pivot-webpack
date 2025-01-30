@@ -38,7 +38,9 @@
     "example": "example"
   },
   "files": [
-    "lib"
+    "/lib",
+    "/dist",
+    "/*.css"
   ],
   "homepage": "https://github.com/ledsoft/react-pivot-webpack",
   "keywords": [
